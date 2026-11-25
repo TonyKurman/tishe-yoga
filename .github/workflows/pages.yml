@@ -14,11 +14,8 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Validate JavaScript
@@ -44,6 +41,13 @@ jobs:
           done
           echo "Uploaded Pages artifact is not visible through the API yet."
           exit 1
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
