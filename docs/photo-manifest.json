@@ -1,0 +1,166 @@
+{
+  "source": "https://disk.yandex.ru/d/uKXhJJSy4tPhsg",
+  "date": "2026-11-25",
+  "photos": [
+    {
+      "asset": "assets/photos/vika-seated.webp",
+      "original": "DSC08806.jpg",
+      "original_sha256": "e7028f615ed135f091db53240ee929e78afc8ef1a842d2bb6b4a6569ca14ce0c",
+      "original_dimensions": [
+        1334,
+        2000
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/vika-smile.webp",
+      "original": "DSC08804.jpg",
+      "original_sha256": "338d99b6c6f05db16261f21808b6986a58477b7f9c70d08e415de56b18c87ff1",
+      "original_dimensions": [
+        2000,
+        1334
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/vika-portrait.webp",
+      "original": "DSC08948.jpg",
+      "original_sha256": "34506f8f2cb77681a5b1c8dd65750ba20c41a6131eb33836f0af270ea3e9d877",
+      "original_dimensions": [
+        1334,
+        2000
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/vika-grounded.webp",
+      "original": "IMG_9306.JPG",
+      "original_sha256": "772b54254500ae24344beb66a74aad93992270f108439efbdb2168f44febe6e3",
+      "original_dimensions": [
+        1334,
+        2000
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/flow.webp",
+      "original": "DSC08852.jpg",
+      "original_sha256": "f8601b2b5e9a02032730a5f1741494d3bfe3e84cf782b333c280c52afcf66870",
+      "original_dimensions": [
+        2000,
+        1334
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/movement.webp",
+      "original": "DSC08859.jpg",
+      "original_sha256": "50095f5fb1ba58fe910f8032d077acc934b69b443a82d1d5054acd0c95d3de09",
+      "original_dimensions": [
+        2000,
+        1334
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/hands.webp",
+      "original": "DSC08837.jpg",
+      "original_sha256": "d1a8bb08aa26762840ffc1f080f38b138e0bc7b1fe17d03198698832acf88dae",
+      "original_dimensions": [
+        2000,
+        1334
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/stillness.webp",
+      "original": "DSC08866.jpg",
+      "original_sha256": "2ffa736e548ee8024496a56569f5a1ae180745556408934eed8420a72979a6c6",
+      "original_dimensions": [
+        1313,
+        2000
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/meditation.webp",
+      "original": "DSC08893.jpg",
+      "original_sha256": "6a2d992588c4baa21238f16af613d5761a7f41743af1b7dc99aa8cf2a9c4b244",
+      "original_dimensions": [
+        1334,
+        2000
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/rest.webp",
+      "original": "DSC08990.jpg",
+      "original_sha256": "2f9a23f5678d998d01010b1feb7928fe24faab49caf670209244c1816e29c84f",
+      "original_dimensions": [
+        2000,
+        1334
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/balance.webp",
+      "original": "DSC08909.jpg",
+      "original_sha256": "0bcc0f9f5f17e4ba1786659b563218ca9c530421620859f0172c2ae63824fb5e",
+      "original_dimensions": [
+        1334,
+        2000
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/detail.webp",
+      "original": "DSC08775.jpg",
+      "original_sha256": "110f4897e2d0e491fa17288957ecef3f3173f44d6ef9ccc7b34ba4fc841ade6e",
+      "original_dimensions": [
+        1334,
+        2000
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/twist.webp",
+      "original": "DSC08827.jpg",
+      "original_sha256": "ac73c7c60b6ad3ae93454dc580987a6e4f7d5b805a02e7a7060d1dc18e052940",
+      "original_dimensions": [
+        2000,
+        1334
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/portrait-close.webp",
+      "original": "DSC08780.jpg",
+      "original_sha256": "4986022650668097c5d084bb26f3915331aabea8054ba061ea2a2c0b56366741",
+      "original_dimensions": [
+        1334,
+        2000
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/bow.webp",
+      "original": "DSC08987.jpg",
+      "original_sha256": "7079c71b0d8c93ca99ccec9473372538a6bfecd90d831facf882ceff098d9cf0",
+      "original_dimensions": [
+        2000,
+        1334
+      ],
+      "retouching": false
+    },
+    {
+      "asset": "assets/photos/reflection.webp",
+      "original": "DSC08790.jpg",
+      "original_sha256": "477eafd0e928fb9d48c8668ac209e4c3360af7ab57c10931566abadbb6ac7a0d",
+      "original_dimensions": [
+        2000,
+        1334
+      ],
+      "retouching": false
+    }
+  ]
+}
