@@ -88,3 +88,16 @@ function renderPhoto(focusDirection){
 function changePhoto(direction){const next=photoIndex+direction;if(next>=0&&next<photoCollection.length){photoIndex=next;renderPhoto(direction);}}
 modal.addEventListener('keydown',e=>{if(modal.classList.contains('photo-dialog')&&['ArrowRight','ArrowLeft'].includes(e.key)){e.preventDefault();changePhoto(e.key==='ArrowRight'?1:-1);}});
 renderGallery();
+
+// If a CDN request fails, try the second local export once instead of leaving a broken image.
+function recoverPhoto(image){
+ if(!(image instanceof HTMLImageElement)||image.dataset.fallbackAttempted)return;
+ const source=(image.getAttribute('src')||'').split('?')[0];
+ if(!/^assets\/photos\/[a-z0-9-]+\.webp$/.test(source))return;
+ image.dataset.fallbackAttempted='true';
+ image.removeAttribute('srcset');
+ image.removeAttribute('sizes');
+ image.src=source.endsWith('-640.webp')?source.replace('-640.webp','.webp'):source.replace('.webp','-640.webp');
+}
+document.addEventListener('error',event=>recoverPhoto(event.target),true);
+document.querySelectorAll('img').forEach(image=>{if(image.complete&&!image.naturalWidth)recoverPhoto(image);});
