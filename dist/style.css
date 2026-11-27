@@ -29,3 +29,5 @@
   .practices { grid-template-columns: 1fr; gap: 32px; }
 }
 main { overflow-x: clip; }
+.contact-links { display: grid; justify-items: start; gap: 4px; }
+.contact-links .text-link { margin-right: 0; }
