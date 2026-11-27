@@ -16,20 +16,20 @@ window.YOGA_CONTENT = {
 
 // Source: the shoot supplied by the project owner, 25 November 2026.
 window.YOGA_PHOTOS = [
- {id:'vika-smile',title:'Легко быть собой',category:'portrait',width:2000,height:1334,alt:'Вика улыбается, сидя на коврике в студии'},
- {id:'flow',title:'В своём потоке',category:'practice',width:2000,height:1334,alt:'Практика Вики: устойчивое движение в студии'},
+ {id:'vika-smile',title:'Легко быть собой',category:'portrait',width:2000,height:1334,alt:'Виктория улыбается, сидя на коврике в студии'},
+ {id:'flow',title:'В своём потоке',category:'practice',width:2000,height:1334,alt:'Практика Виктории: устойчивое движение в студии'},
  {id:'hands',title:'Внимание к деталям',category:'detail',width:2000,height:1334,alt:'Крупный план рук во время спокойной практики'},
- {id:'vika-portrait',title:'Живой человек',category:'portrait',width:1334,height:2000,alt:'Чёрно-белый портрет Вики в студии'},
- {id:'stillness',title:'Внутренняя тишина',category:'practice',width:1313,height:2000,alt:'Вика сидит спиной к камере, сложив ладони за спиной'},
- {id:'movement',title:'Тело в движении',category:'practice',width:2000,height:1334,alt:'Вика в вытянутой боковой позе на коврике'},
+ {id:'vika-portrait',title:'Живой человек',category:'portrait',width:1334,height:2000,alt:'Чёрно-белый портрет Виктории в студии'},
+ {id:'stillness',title:'Внутренняя тишина',category:'practice',width:1313,height:2000,alt:'Виктория сидит спиной к камере, сложив ладони за спиной'},
+ {id:'movement',title:'Тело в движении',category:'practice',width:2000,height:1334,alt:'Виктория в вытянутой боковой позе на коврике'},
  {id:'detail',title:'Точка опоры',category:'detail',width:1334,height:2000,alt:'Чёрно-белая фотография руки с опорой на коврик'},
- {id:'meditation',title:'Момент присутствия',category:'practice',width:1334,height:2000,alt:'Вика во время медитации, кадр через свёрнутый коврик'},
- {id:'balance',title:'Свой баланс',category:'practice',width:1334,height:2000,alt:'Вика выполняет позу баланса в студии'},
+ {id:'meditation',title:'Момент присутствия',category:'practice',width:1334,height:2000,alt:'Виктория во время медитации, кадр через свёрнутый коврик'},
+ {id:'balance',title:'Свой баланс',category:'practice',width:1334,height:2000,alt:'Виктория выполняет позу баланса в студии'},
  {id:'twist',title:'Пространство движения',category:'practice',width:2000,height:1334,alt:'Практика на коврике с мягким поворотом корпуса'},
  {id:'rest',title:'Место для паузы',category:'practice',width:2000,height:1334,alt:'Чёрно-белый кадр спокойной позы с наклоном вперёд'},
- {id:'reflection',title:'В отражении',category:'portrait',width:2000,height:1334,alt:'Вика сидит на коврике рядом с зеркалом'},
- {id:'vika-seated',title:'Присутствие',category:'portrait',width:1334,height:2000,alt:'Вика сидит на коврике в тёплом свете студии'},
- {id:'vika-grounded',title:'Ближе к себе',category:'portrait',width:1334,height:2000,alt:'Цветной портрет Вики во время практики'},
- {id:'bow',title:'Движение и сила',category:'practice',width:2000,height:1334,alt:'Чёрно-белая фотография Вики в прогибе на коврике'},
- {id:'portrait-close',title:'Знакомство',category:'portrait',width:1334,height:2000,alt:'Крупный чёрно-белый портрет Вики'}
+ {id:'reflection',title:'В отражении',category:'portrait',width:2000,height:1334,alt:'Виктория сидит на коврике рядом с зеркалом'},
+ {id:'vika-seated',title:'Присутствие',category:'portrait',width:1334,height:2000,alt:'Виктория сидит на коврике в тёплом свете студии'},
+ {id:'vika-grounded',title:'Ближе к себе',category:'portrait',width:1334,height:2000,alt:'Цветной портрет Виктории во время практики'},
+ {id:'bow',title:'Движение и сила',category:'practice',width:2000,height:1334,alt:'Чёрно-белая фотография Виктории в прогибе на коврике'},
+ {id:'portrait-close',title:'Знакомство',category:'portrait',width:1334,height:2000,alt:'Крупный чёрно-белый портрет Виктории'}
 ];

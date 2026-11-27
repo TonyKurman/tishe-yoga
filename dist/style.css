@@ -12,3 +12,20 @@
 .scene-inactive *{animation-play-state:paused!important}.page-hidden *,.page-hidden *:before,.page-hidden *:after{animation-play-state:paused!important}.motion-toggle:disabled{opacity:.7;cursor:default}#breath-toggle:disabled{opacity:.55;cursor:default}
 
 .motion-offscreen,.motion-offscreen *,.motion-offscreen:before,.motion-offscreen:after{animation-play-state:paused!important}
+
+/* Teacher profile and practice directory */
+.about-copy > p + p { margin-top: 14px; }
+.credentials { margin-top: 26px; border-block: 1px solid var(--line); }
+.credentials summary { cursor: pointer; padding: 14px 0; color: var(--ink); }
+.credentials ul { padding: 0 0 0 20px; margin: 0 0 18px; }
+.credentials li { margin-block: 8px; color: var(--muted); }
+.practices { display: grid; grid-template-columns: 1fr 1.2fr; gap: 8%; border-top: 1px solid var(--line); }
+.practices .text-link { margin-top: 24px; }
+.practice-list { list-style: none; padding: 0; margin: 0; }
+.practice-list li { padding: 13px 0; border-bottom: 1px solid var(--line); font-size: clamp(18px, 2vw, 27px); line-height: 1.35; }
+.practice-list li:first-child { padding-top: 0; }
+.practice-list span { display: block; margin-top: 4px; font-size: 14px; color: var(--muted); }
+@media (max-width: 760px) {
+  .practices { grid-template-columns: 1fr; gap: 32px; }
+}
+main { overflow-x: clip; }
